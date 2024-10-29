@@ -21,7 +21,7 @@ namespace Labb2_Animal
 
         public void HowLong()
         {
-            Console.WriteLine($"Hur länge skulle du klara av att sitta kvar på hästen under en rodeo? {Rodeo} sekunder.");
+            Console.WriteLine($"For how long would you last on a Rodeo-horse? {Rodeo} seconds.");
         }
     }
 }

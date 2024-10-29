@@ -8,11 +8,11 @@ namespace Labb2_Animal
 {
     public class Animal
     {
-        public string Name { get; set; } = "Ej angivet";
+        public string Name { get; set; } = "Unknown";
         public int Age { get; set; } = 1;
         public int NumberOfLegs { get; set; } = 2;
         public bool Meateater { get; set; } = true;
-        public string Habitat { get; set; } = "djungel";
+        public string Habitat { get; set; } = "Jungle";
         public string Sound { get; set; } = "Roooaaaarr";
 
 
@@ -33,34 +33,34 @@ namespace Labb2_Animal
         {
             if (Meateater == true)
             {
-                Console.WriteLine($"{Name} äter kött!");
+                Console.WriteLine($"{Name} eats meat!");
             }
             else
             {
-                Console.WriteLine($"{Name} äter inte kött.");
+                Console.WriteLine($"{Name} dosnt eat meat.");
             }
         }
         public void Sleep()
         {
-            Console.WriteLine($"Pga sin ålder om {Age} år så måste hen vila. ");
+            Console.WriteLine($"Due to its age of {Age} years old, it must rest. ");
         }
         public void Hunt()
         {
-            Console.WriteLine($"Med sina {NumberOfLegs} ben jagar den sitt byte i sin naturliga miljö, {Habitat}.");
+            Console.WriteLine($"With its {NumberOfLegs} legs, it hunts its prey in their natural habitat, {Habitat}.");
         }
         public void Sounds()
         {
-            Console.WriteLine($"{Name} har ett läte som låter såhär {Sound}");
+            Console.WriteLine($"{Name} sounds like this {Sound}");
         }
 
         public void PrintAnimal()
         {
-            Console.WriteLine($"Namn: {Name}");
-            Console.WriteLine($"Ålder: {Age}");
-            Console.WriteLine($"Antal ben: {NumberOfLegs}");
-            Console.WriteLine($"Äter kött: {Meateater}");
-            Console.WriteLine($"Hemvist: {Habitat}");
-            Console.WriteLine($"Läte: {Sound}");
+            Console.WriteLine($"Name: {Name}");
+            Console.WriteLine($"Age: {Age}");
+            Console.WriteLine($"Number of legs: {NumberOfLegs}");
+            Console.WriteLine($"Is a meateater: {Meateater}");
+            Console.WriteLine($"Habitat: {Habitat}");
+            Console.WriteLine($"Sound: {Sound}");
         }
     }
 }

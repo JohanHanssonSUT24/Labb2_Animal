@@ -15,16 +15,13 @@ namespace Labb2_Animal
             Endangered = endangered;
         }
         
+        public Tiger()
+        {
+
+        }
         public void EndangeredAnimal()
         {
-            if (true)
-            {
-                Console.WriteLine("Vi måste rädda detta djur!");
-            }
-            else
-            {
-                Console.WriteLine("Det är lugnt, panga på bara!");
-            }
+            Console.WriteLine($"It is {Endangered} that this animal is endangered!");
         }
 
         

@@ -13,17 +13,14 @@ namespace Labb2_Animal
         {
             CanFly = canfly;
         }
+        public Bird()
+        {
 
-        //public void WillItFly()
-        //{
-        //    if (CanFly = true)
-        //    {
-        //        Console.WriteLine("It flew away...");
-        //    }
-        //    else if ( CanFly = false)
-        //    {
-        //        Console.WriteLine("Dang it, it died...");
-        //    }
-        //}
+        }
+
+        public void WillItFly()
+        {
+            Console.WriteLine($"It is {CanFly} that this bird will fly if you throw it of a cliff...");
+        }
     }
 }

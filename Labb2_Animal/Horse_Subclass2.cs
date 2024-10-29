@@ -21,7 +21,7 @@ namespace Labb2_Animal
         }
         public void Drinking()
         {
-            Console.WriteLine($"Hästen dricker {Water} liter vatten varje dag.");
+            Console.WriteLine($"The horse drinks {Water} liters of water each day.");
         }
     }
 }

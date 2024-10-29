@@ -13,10 +13,14 @@ namespace Labb2_Animal
         {
             NewShoes = newshoes;
         }
+        public Horse_Subclass1()
+        {
+
+        }
 
         public void Shoes()
         {
-            Console.WriteLine($"Behöver hästen skos om?{NewShoes} ");
+            Console.WriteLine($"Does this horse need new shoes? {NewShoes} ");
         }
     }
 }
