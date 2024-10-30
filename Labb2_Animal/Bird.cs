@@ -23,22 +23,19 @@ namespace Labb2_Animal
         {
             Console.WriteLine($"It is {CanFly} that this bird will fly if you throw it of a cliff...");
         }
-        public override void makeSound(string soundsLike)
+        public override void MakeSound()
         {
-            Console.WriteLine($"{Name} sounds like this {soundsLike}");
+            base.MakeSound();
+            Console.WriteLine($"You can hear the {SoundsLike} in the distance!");
         }
         public override void PrintAnimal()
         {
-            Console.WriteLine($"Name: {Name}");
-            Console.WriteLine($"Age: {Age}");
-            Console.WriteLine($"Number of legs: {NumberOfLegs}");
-            Console.WriteLine($"Is a meateater: {Meateater}");
-            Console.WriteLine($"Habitat: {Habitat}");
-            Console.WriteLine($"Sound: {SoundsLike}");
+            base.PrintAnimal();
         }
         public override void Hunt()
         {
-            Console.WriteLine($"With its {NumberOfLegs} legs, it hunts its prey in their natural habitat, {Habitat}.");
+            base.Hunt();
+            Console.WriteLine($"{Name} swoops in on the attack.");
         }
         public override void Sleep()
         {
