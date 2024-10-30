@@ -25,16 +25,11 @@ namespace Labb2_Animal
         }
         public override void MakeSound()
         {
-            base.MakeSound();
             Console.WriteLine($"You can hear the {SoundsLike} in the distance!");
         }
-        public override void PrintAnimal()
-        {
-            base.PrintAnimal();
-        }
+
         public override void Hunt()
         {
-            base.Hunt();
             Console.WriteLine($"{Name} swoops in on the attack.");
         }
         public override void Sleep()

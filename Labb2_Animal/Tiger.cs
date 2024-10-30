@@ -25,7 +25,7 @@ namespace Labb2_Animal
         }
         public override void Sleep()
         {
-            Console.WriteLine($"The tiger sleeps two thirds of its age. ");
+            Console.WriteLine($"The tiger sleeps two thirds of its age, which is {Age}.");
         }
         public override void MakeSound()
         {

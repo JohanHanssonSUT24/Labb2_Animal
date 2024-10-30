@@ -8,12 +8,12 @@ namespace Labb2_Animal
 {
     public class Animal
     {
-        public string Name { get; set; } = "Unknown name";
+        public string Name { get; set; } = "Jane Doe";
         public int Age { get; set; } = 1;
         public int NumberOfLegs { get; set; } = 2;
         public bool Meateater { get; set; } = true;
-        public string Habitat { get; set; } = "Habitat unknown";
-        public string SoundsLike { get; set; } = "Sound unknown";
+        public string Habitat { get; set; } = "Unknow whereabouts";
+        public string SoundsLike { get; set; } = "...";
 
        
 
@@ -56,6 +56,7 @@ namespace Labb2_Animal
         }
         public virtual void PrintAnimal()
         {
+            Console.WriteLine("-Animal info-");
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"Age: {Age}");
             Console.WriteLine($"Number of legs: {NumberOfLegs}");
