@@ -50,11 +50,10 @@ namespace Labb2_Animal
         {
             Console.WriteLine($"With its {NumberOfLegs} legs, it hunts its prey in their natural habitat, {Habitat}.");
         }
-        public virtual void makeSound(string soundsLike)
+        public virtual void MakeSound()
         {           
-            Console.WriteLine($"{Name} sounds like this {soundsLike}");
+            Console.WriteLine($"{Name} sounds something like this... {SoundsLike}");
         }
-
         public virtual void PrintAnimal()
         {
             Console.WriteLine($"Name: {Name}");
@@ -62,7 +61,6 @@ namespace Labb2_Animal
             Console.WriteLine($"Number of legs: {NumberOfLegs}");
             Console.WriteLine($"Is a meateater: {Meateater}");
             Console.WriteLine($"Habitat: {Habitat}");
-            Console.WriteLine($"Sound: {SoundsLike}");
         }
     }
 }

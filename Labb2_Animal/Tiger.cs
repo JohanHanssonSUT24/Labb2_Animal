@@ -23,7 +23,15 @@ namespace Labb2_Animal
         {
             Console.WriteLine($"It is {Endangered} that this animal is endangered!");
         }
+        public override void Sleep()
+        {
+            Console.WriteLine($"The tiger sleeps two thirds of its age. ");
+        }
+        public override void MakeSound()
+        {
+            Console.WriteLine($"The Tiger sounds {SoundsLike}");
+        }
 
-        
+
     }
 }
