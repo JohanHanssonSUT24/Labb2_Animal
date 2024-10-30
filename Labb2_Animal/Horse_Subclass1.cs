@@ -22,5 +22,10 @@ namespace Labb2_Animal
         {
             Console.WriteLine($"Does this horse need new shoes? {NewShoes} ");
         }
+        public override void MakeSound()
+        {
+            Console.WriteLine($"When {Name} gets stung by a bee she makes this sound {SoundsLike}");
+
+        }
     }
 }

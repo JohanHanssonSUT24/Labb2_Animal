@@ -25,8 +25,7 @@ namespace Labb2_Animal
         }
         public override void MakeSound()
         {
-            base.MakeSound();
-            Console.WriteLine($"When {Name} gets stung by a bee she makes this sound {SoundsLike}");
+            Console.WriteLine($"When {Name} sleeps she goes {SoundsLike}");
             
         }
     }
