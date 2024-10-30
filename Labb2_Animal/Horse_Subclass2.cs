@@ -23,5 +23,11 @@ namespace Labb2_Animal
         {
             Console.WriteLine($"The horse drinks {Water} liters of water each day.");
         }
+        public override void MakeSound()
+        {
+            base.MakeSound();
+            Console.WriteLine($"When {Name} gets stung by a bee she makes this sound {SoundsLike}");
+            
+        }
     }
 }
