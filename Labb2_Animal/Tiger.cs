@@ -27,6 +27,11 @@ namespace Labb2_Animal
         {
             Console.WriteLine($"The tiger sleeps two thirds of its age, which is {Age}.");
         }
+
+        //public void Hunt()
+        //{
+        //    base.Hunt();
+        //}
         public override void MakeSound()
         {
             Console.WriteLine($"The Tiger sounds {SoundsLike}");
