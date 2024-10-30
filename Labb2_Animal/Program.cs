@@ -26,6 +26,13 @@
             tiger1.EndangeredAnimal();
             tiger1.Eat();
 
+            Horse_Subclass1 HorseSub1 = new Horse_Subclass1(false, 5, "Hopper", 4, 3, false, "Dessert", "Eiiiiihhhh");
+
+            HorseSub1.PrintAnimal();
+            HorseSub1.HowLong();
+            HorseSub1.MakeSound();
+            
+
 
 
         }
