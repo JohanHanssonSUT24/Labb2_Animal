@@ -3,10 +3,10 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   //Create different animal objects.
             Bird bird1 = new Bird(true, "Polly", 22, 2, true, "Woods", "Tweet");
             Bird bird2 = new Bird();
-
+            //Print different methods
             bird1.PrintAnimal();
             Console.WriteLine();
             bird1.WillItFly();

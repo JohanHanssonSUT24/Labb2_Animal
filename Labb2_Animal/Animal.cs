@@ -8,6 +8,7 @@ namespace Labb2_Animal
 {
     public class Animal
     {
+        //Create common properties for the classes
         public string Name { get; set; } = "Jane Doe";
         public int Age { get; set; } = 1;
         public int NumberOfLegs { get; set; } = 2;
@@ -17,7 +18,7 @@ namespace Labb2_Animal
 
        
 
-
+        //Constructor for base-class
         public Animal(string name, int age, int numberOfLegs, bool meateater, string habitat, string sound)
         {
             Name = name;
@@ -27,10 +28,12 @@ namespace Labb2_Animal
             Habitat = habitat;
             SoundsLike = sound;
         }
+        //Empty constructor to be able to use allready set propertievalues
         public Animal()
         {
 
         }
+        //Vitrual methods to be able to override in each sub-class.
         public virtual void Eat()
         {
             if (Meateater == true)
@@ -54,6 +57,7 @@ namespace Labb2_Animal
         {           
             Console.WriteLine($"{Name} sounds something like this... {SoundsLike}");
         }
+        //Create summary of the choosen animal
         public virtual void PrintAnimal()
         {
             Console.WriteLine("-Animal info-");

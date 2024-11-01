@@ -13,12 +13,12 @@ namespace Labb2_Animal
         public Tiger(bool endangered, string name, int age, int numberOfLegs, bool meateater, string habitat, string sound ): base (name, age, numberOfLegs, meateater, habitat, sound)
         {
             Endangered = endangered;
-        }
-        
+        }        
         public Tiger()
         {
 
         }
+        //Unique method for the animal
         public void EndangeredAnimal()
         {
             Console.WriteLine($"It is {Endangered} that this animal is endangered!");
@@ -26,12 +26,7 @@ namespace Labb2_Animal
         public override void Sleep()
         {
             Console.WriteLine($"The tiger sleeps two thirds of its age, which is {Age}.");
-        }
-
-        //public void Hunt()
-        //{
-        //    base.Hunt();
-        //}
+        }       
         public override void MakeSound()
         {
             Console.WriteLine($"The Tiger sounds {SoundsLike}");

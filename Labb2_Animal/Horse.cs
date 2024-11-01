@@ -17,11 +17,14 @@ namespace Labb2_Animal
         {
             Rodeo = rodeo;
         }
-        
-
+        //Unique method for the animal
         public void HowLong()
         {
             Console.WriteLine($"For how long would you last on a Rodeo-horse? {Rodeo} seconds.");
+        }
+        public override void MakeSound()
+        {
+            Console.WriteLine($"A typical horse sounds like {SoundsLike}");
         }
     }
 }

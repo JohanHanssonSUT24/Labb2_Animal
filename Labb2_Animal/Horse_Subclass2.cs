@@ -14,19 +14,18 @@ namespace Labb2_Animal
         {
 
         }
-
         public Horse_Subclass2(int water, int rodeo, string name, int age, int numberOfLegs, bool meateater, string habitat, string sound): base(rodeo, name, age, numberOfLegs, meateater, habitat, sound)
         {
             Water = water;
         }
+        //Unique method for the animal
         public void Drinking()
         {
             Console.WriteLine($"The horse drinks {Water} liters of water each day.");
         }
         public override void MakeSound()
         {
-            Console.WriteLine($"When {Name} sleeps she goes {SoundsLike}");
-            
+            Console.WriteLine($"When {Name} sleeps she goes {SoundsLike}");            
         }
     }
 }
