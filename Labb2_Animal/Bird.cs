@@ -10,6 +10,7 @@ namespace Labb2_Animal
     public class Bird : Animal
     {
         public bool CanFly { get; set; } = true;
+        //Constructor for sub-classes
         public Bird(bool canfly, string name, int age, int numberOfLegs, bool meateater, string habitat, string sound) : base(name, age, numberOfLegs, meateater, habitat, sound)
         {
             CanFly = canfly;           
